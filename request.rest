@@ -1,0 +1,15 @@
+###
+POST http://localhost:5000/api/files/test
+Content-Type: application/json
+
+{
+    "emailFrom": "adexsamuel6@gmail.com",
+    "emailTo": "adextechcorp@gmail.com",
+    "subject": "Demo Mail Message",
+    "text": "This is just a minor Email Test run",
+    "message": "Just a nodemailer test gmail message"
+}
+
+
+###
+GET http://localhost:5000/api/files/download/645fb3bf1f2640115263467a
